@@ -116,7 +116,6 @@ void fibonacci_matrix(mpz_t result, mpz_t n) {
 
 int main() {
     // Define some values of n as strings.
-    // (Calculating Fibonacci(n) for n = 9223372036854775807 is not practical to print,
     // so here we use smaller examples. You can modify the input as needed.)
     const char *test_values[] = { "40", "1000000" };
     const int num_tests = sizeof(test_values) / sizeof(test_values[0]);
